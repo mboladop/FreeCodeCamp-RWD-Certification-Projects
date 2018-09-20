@@ -1,0 +1,62 @@
+body {
+    background-color: #E6E6FA;
+  }
+  
+  .merits {
+    background-color: #fafafa;
+    border-radius: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 16px;
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+  }
+  
+  .larger-image {
+    width: 100%;
+  }
+  
+  .ctr {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    font-family: 'Dancing script', cursive;
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-position: inside;
+    list-style-image: none;
+    margin: 30px;
+  }
+  
+  #banner {
+    display: block;
+  }
+  
+  .div-img {
+    float: left;
+    width: 25%;
+  }
+  .div-img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  

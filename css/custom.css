@@ -7,10 +7,9 @@ body {
     border-radius: 20px;
   }
   
-  h1 {
-    font-size: 40px;
-    font-family: 'Dancing script', cursive;
+#title {
     text-align: center;
+    font-family: 'Dancing script', cursive;
   }
   
   h2 {

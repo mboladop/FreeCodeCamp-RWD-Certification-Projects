@@ -3,4 +3,5 @@
 
 
 ### Objective: 
-Build aN app that is functional. 
+Build an app that is functional for the Responsive Web Design Certification (300 hours) of FreeCodeCamp.
+[My profile in FCC](https://www.freecodecamp.org/mboladop)

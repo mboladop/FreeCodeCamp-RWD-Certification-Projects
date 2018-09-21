@@ -11,15 +11,13 @@ Build an app that is functional for the Responsive Web Design Certification (300
 
 ### How does it work
  
-This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap**.The site can be viewed [HERE](https://mboladop.github.io/Jk.Rowling-tributepage-FCC/)
+This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap**.Can be viewed [HERE](https://mboladop.github.io/Jk.Rowling-tributepage-FCC/)
 
 ## Technologies Used 
-- **HTML5** and **CSS3**, **JS/jQuery**
+- **HTML5** and **CSS3**
   - Base languages used to create website
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
-- [Fontawesome](http://fontawesome.com/)
-    - We use **Fontawesome** to give our project the icons.
 - [Google Fonts](http://googlefonts.com/)
     - We use **Google Fonts** to give our project the fonts.
 

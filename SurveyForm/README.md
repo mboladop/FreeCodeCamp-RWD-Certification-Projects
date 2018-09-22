@@ -2,8 +2,7 @@
 Responsive Web Design Projects - Build a Survey Form
 
 ### How the project looks and works on different browsers and screen sizes:
-![Responsive Demo](https://raw.githubusercontent.com/mboladop/FreeCodeCamp-RWD-Certification-Projects/master/README_files/responsive.png"Responsive Demo")
-
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/FreeCodeCamp-RWD-Certification-Projects/master/README_files/responsive.png "Responsive Demo")
 
 ### Objective: 
 Build an app that is functional for the Responsive Web Design Certification (300 hours) of FreeCodeCamp.

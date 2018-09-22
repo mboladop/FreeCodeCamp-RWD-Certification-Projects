@@ -1,8 +1,8 @@
-# Jk.Rowling-tributepage-FCC
-## Responsive Web Design Projects - Build a Tribute Page
+# Survey-form
+Responsive Web Design Projects - Build a Survey Form
 
 ### How the project looks and works on different browsers and screen sizes:
-![Responsive Demo](https://raw.githubusercontent.com/mboladop/Jk.Rowling-tributepage-FCC/master/README_files/jk.gif "Responsive Demo")
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/FreeCodeCamp-RWD-Certification-Projects/master/README_files/responsive.png"Responsive Demo")
 
 
 ### Objective: 
@@ -11,7 +11,7 @@ Build an app that is functional for the Responsive Web Design Certification (300
 
 ### How does it work
  
-This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap**.Can be viewed [HERE](https://mboladop.github.io/Jk.Rowling-tributepage-FCC/)
+This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap**.Can be viewed [HERE]()
 
 ## Technologies Used 
 - **HTML5** and **CSS3**
@@ -48,6 +48,3 @@ This website uses **HTML5** and **CSS3** to route viewers through the site. The 
 3. The project will now run locally.
 4. Make changes to the code and if you think it belongs in here then just submit a pull request.
 
-### Media
-- The photos used in this site were obtained from [Google](https://www.Google.com/)
-- The animated Gifs of the different projects from the [Giphy Capture App](https://giphy.com/apps/giphycapture)

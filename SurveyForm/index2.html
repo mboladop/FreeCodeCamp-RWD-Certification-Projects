@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="README_files/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Ramabhadra" rel="stylesheet">
+    <link rel="stylesheet" href="../dwcdn/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dwcdn/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom2.css" type="text/css"/>
+    <title>Developer Survey</title>
+</head>
+
+<body id='main'>
+  <header>
+    <h1 id="title">New-Developers Survey</h1>
+    <hr>
+  </header>
+
+  <form  id="survey-form" action="">
+    <p id="description">The purpose of this survey is to discern which parts of software development are most popular among newbie Software Developers from different educational backgrounds.</p>
+    <br>
+    <div id='basic_data'>
+      <label id="name-label"> Name:</label>
+      <input autofocus="" type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="">
+      <br>
+      <label id="email-label"> Email:</label>
+      <input type="email" name="email" id="email" class="input-field" required="" placeholder="Enter your Email">
+      <br>
+      <label id="number-label"> Age:</label>
+      <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+    </div>
+    <br>
+    <div>
+        <label for="sel1">Select education involving your Software Development skills :</label>
+        <select id="dropdown" name="currentPos" class="dropdown">
+          <option disabled="" value="">Select an option</option>
+          <option value="Degree">College Degree</option>
+          <option value="job">Master</option>
+          <option value="learner">Self-Learner</option>
+          <option value="bootcamp">Bootcamp</option>
+          <option value="Free"> Free Bootcamps or similar</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    <br>
+    <div id='checkboxes'>
+      <label for="preferences"> What field or fields of Software development do you find more <u>appealing</u> for you?</label>
+      <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Full-stack</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">APIs</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Databases</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Data Visualization</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Security</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Testing</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Android Mobile dev</label></li>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">IOS Mobile dev</label></li>
+          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">Hybrid Mobile dev</label></li>
+      </ul>
+      <br>
+      <label for="preferences"> What field or fields of Software development do you find <u>easier or more aproachable</u>?</label>
+      <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Full-stack</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">APIs</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Databases</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Data Visualization</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Security</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Testing</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Android Mobile dev</label></li>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">IOS Mobile dev</label></li>
+          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">Hybrid Mobile dev</label></li>
+        </ul>
+    </div>
+    <br>
+    <div id='radio'>
+      <label>Did you find the learning curve in Software Development easy?</label>
+      <br>
+      <br>
+      <ul id='radio_btn'style="list-style: none;">
+        <div>
+        <label>Definitely </label>
+        <li class="radio"><input name="radio-buttons" value="1" type="radio" class="userRatings"></li>
+        </div>
+        
+        <div>
+        <label>50/50 </label>
+        <li class="radio"><input name="radio-buttons" value="2" type="radio" class="userRatings"></li>
+        </div>
+        
+        <div>
+        <label>No </label>
+        <li class="radio"><input name="radio-buttons" value="3" type="radio" class="userRatings"></li>
+        </div>
+      </ul>
+    </div>
+  <br>
+  <div>
+    <label for="comment">Please do a small comment pertaining how you see job oportunities for yourself in the industry:</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <br>
+    <button id="submit" class='btn'type="submit">Submit</button>
+  </form>
+  
+  <footer>
+      <hr>
+      <a href="https://github.com/mboladop" target="_blank" class="has-category"><img class="sm" src="../common_images/github.png"></a>
+      <a href="https://www.freecodecamp.org/mboladop" target="_blank" id='profile-link' class="has-category"><img class="sm" src="../common_images/freecodecamp.png"></a>
+      <a href="https://www.linkedin.com/in/luisa-bolado-pardo/" target="_blank" class="has-category"><img class="sm" src="../common_images/linkedin.png"></a>
+  </footer>
+  <script type="text/javascript" src="../dwcdn/js/bundle.js"></script>
+</body>
+
+</html>

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="README_files/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Dancing+Script:400,700|Parisienne&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <link rel="stylesheet" href="../dwcdn/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dwcdn/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/custom3.css" type="text/css"/>
@@ -22,25 +21,53 @@
             <a href="#prices" class="nav-link">Prices</a>
             <a href="#footer" class="nav-link">Contact</a>
         </nav>
+    <hr> 
     </header>
-    <hr>   
+     
     <main>
-    <form id='form' action="" class='jumbotron'>
-        <input id='email' type="email" placeholder="email">
-        <input id='submit' type='submit' class='btn' placeholder="Get Started!">
+    <form id='form' action="https://www.freecodecamp.com/email-submit" name='form' class='jumbotron'>
+        <div id='start'>
+            <input id='email' type="email" placeholder="Get Started!">
+            <input id='submit' type='submit' class='btn'>
+        </div>
     </form>
-
-    <div id='products'>
-    
+    <div class="deco">
+        <img class='swirl' src="images/swirl.png" alt="">
     </div>
-
+    <div id='products'>
+    <video id="video" width="720" height="540" controls>
+        <source src="video/yoga-surprise.mp4" type="video/mp4">   
+    </video>           
+    </div>
+    <div class="deco">
+        <img class='swirl' src="images/swirl.png" alt="">
+    </div>
     <div id='prices'>
-        
-       
+        <div class='card'>
+            <h2>THE YOGA BOX</h2>
+            <br/>
+            <p>
+                Every month you'll receive products with a mission to elevate your yoga practice on and off the mat.
+                $85+ retail value in every box.
+                <b>$44.95/month + free shipping</b>.
+            </p>
+        </div>
+        <div class='card'>
+            <h2>THE JEWELRY BOX</h2>
+            <br/>
+            <p>
+                Every month discover hand-crafted jewelry designed with your yogic journey in mind.
+                $60+ retail value in every box.
+                <b>$24.99/month + free shipping</b>.
+            </p>
+        </div>
     </div>
 
     <footer id='footer'>
-    <hr>
+        <hr>
+        <a href="https://github.com/mboladop" target="_blank" class="has-category"><img class="sm" src="../common_images/github.png"></a>
+        <a href="https://www.freecodecamp.org/mboladop" target="_blank" id='profile-link' class="has-category"><img class="sm" src="../common_images/freecodecamp.png"></a>
+        <a href="https://www.linkedin.com/in/luisa-bolado-pardo/" target="_blank" class="has-category"><img class="sm" src="../common_images/linkedin.png"></a>
     </footer>
 
 </main>

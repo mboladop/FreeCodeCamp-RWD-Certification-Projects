@@ -77,7 +77,10 @@ p {
 #banner {
     display: block;
 }
-
+#mobile{
+    display: none;
+    margin: 200px 0px;
+}
 .div-img {
     float: left;
     width: 25%;
@@ -101,4 +104,28 @@ footer{
 }
 .has-category{
     -webkit-filter: invert(100%);
+}
+@media (max-width:768px){
+    #quote{
+        margin-top: 1050px;
+    }  
+
+}
+@media (max-width:768px){
+    #quote{
+        margin-top: 250px;
+    }  
+
+}
+@media (max-width:500px){
+    #quote{
+        margin-top: 150px;
+    }  
+    #mobile{
+        display: block;
+    }
+    p{
+        padding:200px 0px 0px 0px;
+        align-self: flex-end;
+    }
 }

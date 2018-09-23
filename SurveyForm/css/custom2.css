@@ -55,3 +55,9 @@ button{
     box-shadow: 5px 5px #5D4954;
     color: #5D4954;
 }
+@media (max-width: 600px){
+    form{
+        margin: 0px;
+        padding: 15px 50px; 
+    }
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(209, 202, 250);
+    background-color: #000000;
 }
 .merits {
     background-color: transparent;
@@ -7,35 +7,45 @@ body {
 }
 .jumbotron{
     position: relative;
-    z-index: 2;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../images/jk.jpg");
+    background-image: url("../images/jk.png");
     background-attachment: fixed; 
     background-position: center;
     background-size: 100%;
     height: 100vh;
     margin: 0px;
     background-color: #000000;
+    display: flex;
 }
 #title {
-    text-align: center;
+    text-align: left;
     font-family: 'Dancing script', cursive;
     font-weight: 800;
+    padding: 0px 30px
+}
+header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 h1{
     margin-top: 0px;
+    color: #ffffff;
+    font-size: 70px;
 }
 h2 {
     font-family: 'Dancing script', cursive;
     text-align: center;
     letter-spacing: 3px;
     padding: 5px 0px;
+    color: #fafafa;
 }
 h3 {
     font-family: 'Dancing script', cursive;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0px;
     letter-spacing: 2px;
 }
 #img-div{
@@ -49,14 +59,21 @@ h3 {
     padding: 10px;
     margin:20px 5px;
 }
-
 p {
     font-size: 20px;
     font-family: 'Bad Script', cursive;
     margin: 20px;
     letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.5;
+    align-self: flex-end;
+    padding: 0px 100px;
 }
-
+#quote{
+    color: #fafafa;
+    margin-top: 400px;
+}
 #banner {
     display: block;
 }
@@ -77,4 +94,11 @@ p {
 }
 .sm {
     width: 38px;
+}
+footer{
+   text-align: center;
+   padding: 20px 0px;
+}
+.has-category{
+    -webkit-filter: invert(100%);
 }

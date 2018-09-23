@@ -8,6 +8,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="README_files/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Ramabhadra" rel="stylesheet">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
     <link rel="stylesheet" href="../dwcdn/css/bootstrap.min.css">
     <link rel="stylesheet" href="../dwcdn/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/custom2.css" type="text/css"/>
@@ -34,48 +35,47 @@
       <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
     </div>
     <br>
-    <div>
         <label for="sel1">Select education involving your Software Development skills :</label>
-        <select id="dropdown" name="currentPos" class="dropdown">
-          <option disabled="" value="">Select an option</option>
-          <option value="Degree">College Degree</option>
-          <option value="job">Master</option>
-          <option value="learner">Self-Learner</option>
-          <option value="bootcamp">Bootcamp</option>
-          <option value="Free"> Free Bootcamps or similar</option>
-          <option value="other">Other</option>
+        <select id="dropdown" name="currentPos" class="dropdown dropdown-content">
+          <option class="link" disabled="" value="">Select an option</option>
+          <option class="link" value="Degree">College Degree</option>
+          <option class="link" value="job">Master</option>
+          <option class="link" value="learner">Self-Learner</option>
+          <option class="link" value="bootcamp">Bootcamp</option>
+          <option class="link" value="Free"> Free Bootcamps or similar</option>
+          <option class="link" value="other">Other</option>
         </select>
       </div>
     <br>
     <div id='checkboxes'>
       <label for="preferences"> What field or fields of Software development do you find more <u>appealing</u> for you?</label>
       <ul id="preferences" style="list-style: none;">
-          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end</label></li>
-          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end</label></li>
-          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Full-stack</label></li>
-          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">APIs</label></li>
-          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Databases</label></li>
-          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Data Visualization</label></li>
-          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Security</label></li>
-          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Testing</label></li>
-          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Android Mobile dev</label></li>
-          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">IOS Mobile dev</label></li>
-          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">Hybrid Mobile dev</label></li>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="1" type="checkbox" class="userRatings"><div class="state"><label>Front-end</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="2" type="checkbox" class="userRatings"><div class="state"><label>Back-end</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="3" type="checkbox" class="userRatings"><div class="state"><label>Full-stack</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="4" type="checkbox" class="userRatings"><div class="state"><label>APIs</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="5" type="checkbox" class="userRatings"><div class="state"><label>Databases</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="6" type="checkbox" class="userRatings"><div class="state"><label>Data Visualization</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="7" type="checkbox" class="userRatings"><div class="state"><label>Security</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="8" type="checkbox" class="userRatings"><div class="state"><label>Testing</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="9" type="checkbox" class="userRatings"><div class="state"><label>Android Mobile dev</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="10" type="checkbox" class="userRatings"><div class="state"><label>IOS Mobile dev</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="11" type="checkbox" class="userRatings"><div class="state"><label>Hybrid Mobile dev</label></div></li><br>
       </ul>
       <br>
       <label for="preferences"> What field or fields of Software development do you find <u>easier or more aproachable</u>?</label>
       <ul id="preferences" style="list-style: none;">
-          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end</label></li>
-          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end</label></li>
-          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Full-stack</label></li>
-          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">APIs</label></li>
-          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Databases</label></li>
-          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Data Visualization</label></li>
-          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Security</label></li>
-          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Testing</label></li>
-          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Android Mobile dev</label></li>
-          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">IOS Mobile dev</label></li>
-          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">Hybrid Mobile dev</label></li>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="1" type="checkbox" class="userRatings"><div class="state"><label>Front-end</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="2" type="checkbox" class="userRatings"><div class="state"><label>Back-end</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="3" type="checkbox" class="userRatings"><div class="state"><label>Full-stack</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="4" type="checkbox" class="userRatings"><div class="state"><label>APIs</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="5" type="checkbox" class="userRatings"><div class="state"><label>Databases</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="6" type="checkbox" class="userRatings"><div class="state"><label>Data Visualization</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="7" type="checkbox" class="userRatings"><div class="state"><label>Security</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="8" type="checkbox" class="userRatings"><div class="state"><label>Testing</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="9" type="checkbox" class="userRatings"><div class="state"><label>Android Mobile dev</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="10" type="checkbox" class="userRatings"><div class="state"><label>IOS Mobile dev</label></div></li><br>
+          <li class="pretty p-switch p-slim"><input name="prefer" value="11" type="checkbox" class="userRatings"><div class="state"><label>Hybrid Mobile dev</label></div></li><br>
         </ul>
     </div>
     <br>
@@ -85,18 +85,15 @@
       <br>
       <ul id='radio_btn'style="list-style: none;">
         <div>
-        <label>Definitely </label>
-        <li class="radio"><input name="radio-buttons" value="1" type="radio" class="userRatings"></li>
+        <li class="pretty p-icon p-curve p-tada"><input name="radio-buttons" value="1" type="radio"><div class="state p-success-o"><i class="icon mdi mdi-check"></i><label>Definitely</label></div></li>
         </div>
         
         <div>
-        <label>50/50 </label>
-        <li class="radio"><input name="radio-buttons" value="2" type="radio" class="userRatings"></li>
+        <li class="pretty p-icon p-curve p-tada"><input name="radio-buttons" value="1" type="radio"><div class="state p-success-o"><i class="icon mdi mdi-check"></i><label>50/50</label></div></li>
         </div>
         
         <div>
-        <label>No </label>
-        <li class="radio"><input name="radio-buttons" value="3" type="radio" class="userRatings"></li>
+            <li class="pretty p-icon p-curve p-tada"><input name="radio-buttons" value="1" type="radio"><div class="state p-success-o"><i class="icon mdi mdi-check"></i><label>No</label></div></li>
         </div>
       </ul>
     </div>

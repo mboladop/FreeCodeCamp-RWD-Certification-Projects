@@ -1,3 +1,5 @@
+
+
 body{
    background-color: rgb(136, 104, 114);
    color: #000000;
@@ -52,9 +54,10 @@ footer{
 }
 button{
     border: 1px solid #5D4954 !important;
-    box-shadow: 5px 5px #5D4954;
     color: #5D4954;
+    background-color: #fafafa;
 }
+
 @media (max-width: 600px){
     form{
         margin: 0px;

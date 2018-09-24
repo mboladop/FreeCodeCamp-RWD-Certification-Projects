@@ -47,3 +47,7 @@ This website uses **HTML5** and **CSS3** to route viewers through the site. The 
 3. The project will now run locally.
 4. Make changes to the code and if you think it belongs in here then just submit a pull request.
 
+## Inspiration
+
+- [YOGI SURPRISE](https://yogisurprise.com/).
+

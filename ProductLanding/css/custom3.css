@@ -87,3 +87,17 @@ footer{
     padding: 10px 50px;
     margin:15px 50px;
 }
+@media (max-width: 800px){
+    #prices .card {
+        margin: 10px 5px; 
+    }
+}
+@media (max-width: 500px){
+    #prices{
+        flex-direction: column;
+    }
+    a{
+        font-size: 10px;
+        margin: 0px 10px;
+    }
+}

@@ -2,7 +2,7 @@
 Responsive Web Design Projects - Build a Survey Form
 
 ### How the project looks and works on different browsers and screen sizes:
-![Responsive Demo](https://raw.githubusercontent.com/mboladop/FreeCodeCamp-RWD-Certification-Projects/master/README_files/responsive.png "Responsive Demo")
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/FreeCodeCamp-RWD-Certification-Projects/master/README_files/responsivesurvey.gif "Responsive Demo")
 
 ### Objective: 
 Build an app that is functional for the Responsive Web Design Certification (300 hours) of FreeCodeCamp.
@@ -10,7 +10,7 @@ Build an app that is functional for the Responsive Web Design Certification (300
 
 ### How does it work
  
-This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap**.Can be viewed [HERE]()
+This website uses **HTML5** and **CSS3** to route viewers through the site. The site is styled with **Bootstrap** and **Pretty checkbox** npm package.Can be viewed [HERE]()
 
 ## Technologies Used 
 - **HTML5** and **CSS3**
@@ -19,6 +19,8 @@ This website uses **HTML5** and **CSS3** to route viewers through the site. The 
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [Google Fonts](http://googlefonts.com/)
     - We use **Google Fonts** to give our project the fonts.
+- [Pretty Checkbox](https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css)
+    - We use **Pretty checkbox** to give our project the radio buttons and checkboxes .
 
 ## Testing
 - All code used on the site has been tested to ensure everything is working as expected
